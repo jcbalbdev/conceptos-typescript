@@ -49,3 +49,12 @@ En una frase:
 Porque nos ayuda a evitar errores que en JavaScript recién veríamos cuando la aplicación ya esté corriendo (¡y eso puede causar fallos o problemas para los usuarios!).
 Además, hace que los programas sean más fáciles de entender y mantener a medida que crecen.
 ## 🛠️ Explicación detallada paso a paso
+Vamos paso a paso:
+1. JavaScript es flexible, pero peligroso
+   JavaScript te deja hacer muchas cosas, pero no te avisa si cometes errores como usar mal un dato (por ejemplo, tratar un número como si fuera un texto). Eso puede causar fallas durante la ejecución.
+2. TypeScript agrega "tipos"
+   TypeScript te permite decirle al programa qué tipo de datos esperas: ¿es un número? ¿es un texto? ¿es una lista?. Si escribes algo que no concuerda, TypeScript te avisa antes de que el programa corra.
+3. TypeScript se convierte en JavaScript
+   Las computadoras, los navegadores y los servidores no entienden TypeScript directamente.TypeScript se transforma (compila) en JavaScript normal antes de que se use.
+4. ¿Cómo lo usa un programador?
+   Escribes tu programa en archivos .ts (TypeScript). Luego, lo “conviertes” en archivos .js (JavaScript) usando una herramienta llamada compilador.
