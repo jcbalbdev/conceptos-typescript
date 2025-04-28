@@ -2,7 +2,7 @@
   <strong>Domina TypeScript desde sus Bases hasta Conceptos Avanzados</strong>
 </h1>
 
-<img src="./imagenes/typescript-banner.png" alt="Banner de Conceptos de TypeScript" width="100%" />
+<img src="./Imagenes/typescript banner.png" alt="Banner de Conceptos de TypeScript" width="100%" />
 
 <p align="center">
   Una guía completa y práctica para entender y aplicar los conceptos fundamentales de <strong>TypeScript</strong> 🚀🧠
