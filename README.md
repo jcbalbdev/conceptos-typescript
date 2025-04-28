@@ -11,7 +11,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/TypeScript-Latest-blue?style=for-the-badge&logo=typescript&logoColor=white&labelColor=101010" alt="TypeScript Badge" />
   <img src="https://img.shields.io/badge/Estado-En%20progreso-blue?style=for-the-badge&logo=github&logoColor=white&labelColor=101010" alt="Estado: En progreso" />
-  <img src="https://img.shields.io/github/last-commit/TU_USUARIO/TU_REPOSITORIO?style=for-the-badge&logo=git&logoColor=white&labelColor=101010" alt="Último commit" />
+  <img src="https://img.shields.io/github/last-commit/jcbalbdev/conceptos-typescript?style=for-the-badge&logo=git&logoColor=white&labelColor=101010" alt="Último commit" />
 </p>
 
 ---
