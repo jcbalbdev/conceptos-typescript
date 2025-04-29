@@ -29,6 +29,7 @@
   - [🧠 ¿Qué es TypeScript?](#-qué-es-typescript)
   - [🔥 ¿Por qué es importante TypeScript?](#-por-qué-es-importante-typescript)
   - [🛠️ Explicación detallada paso a paso](#️-explicación-detallada-paso-a-paso)
+  - [✏️ Ejemplo práctico](#️-ejemplo-práctico)
 
 ---
 
@@ -58,3 +59,4 @@ Vamos paso a paso:
    Las computadoras, los navegadores y los servidores no entienden TypeScript directamente.TypeScript se transforma (compila) en JavaScript normal antes de que se use.
 4. ¿Cómo lo usa un programador?
    Escribes tu programa en archivos .ts (TypeScript). Luego, lo “conviertes” en archivos .js (JavaScript) usando una herramienta llamada compilador.
+## ✏️ Ejemplo práctico
