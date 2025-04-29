@@ -151,6 +151,7 @@ Vamos paso a paso:
 2. ¿Qué es un tipo de dato?
    - Un tipo de dato describe qué clase de información guarda una variable.
     En TypeScript, los tipos básicos son:
+    
     | Tipo de dato | Qué representa                | Ejemplo           |
     | ------------ | ----------------------------- | ----------------- |
     | `number`     | Números (enteros o decimales) | `42`, `3.14`      |
