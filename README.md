@@ -75,3 +75,12 @@ Nada te impide hacer esto:
 suma(5, "hola")  // Resultado: "5hola" (concatena en vez de sumar)
 ```
 💥 ¡Error raro! El programa no falla, pero no hace lo que quieres.
+
+En TypeScript:
+```typescript
+function suma(a: number, b: number): number {
+  return a + b;
+}
+```
+Aquí TypeScript te exige que a y b sean números (number).
+Si tratas de hacer suma(5, "hola"), TypeScript te marca un error inmediatamente ❌.
