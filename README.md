@@ -33,6 +33,10 @@
   - [🌎 Analogía con el mundo real](#-analogía-con-el-mundo-real)
   - [⚡ Errores comunes al aprender o aplicar este concepto](#-errores-comunes-al-aprender-o-aplicar-este-concepto)
   - [💡 Consejo práctico para dominar el tema](#-consejo-práctico-para-dominar-el-tema)
+- [🧠 Tema 2: Variables y tipos de datos básicos](#-tema-2-variables-y-tipos-de-datos-básicos)
+  - [🧠 ¿Que son variables y tipos?](#-que-son-variables-y-tipos)
+  - [🔥 ¿Por qué es importante TypeScript?](#-por-qué-es-importante-typescript-1)
+  - [🛠️ Explicación detallada paso a paso](#️-explicación-detallada-paso-a-paso-1)
 
 ---
 
@@ -115,3 +119,48 @@ Así, TypeScript verifica tu código antes de que lo “pongas en marcha”, igu
 > **Intenta provocar errores a propósito** para ver cómo TypeScript te los señala.
 > 
 > Eso te va a enseñar a **confiar** en sus advertencias y a escribir código **más seguro y limpio**.
+
+# 🧠 Tema 2: Variables y tipos de datos básicos
+## 🧠 ¿Que son variables y tipos?
+- Variables son cajas donde guardamos información.
+
+- Tipos de datos básicos son formas que puede tener esa información: puede ser un número, un texto, verdadero o falso, entre otros.
+En una frase:
+> Una variable es como una cajita que guarda algo, y el tipo de dato nos dice qué clase de cosa guarda.
+## 🔥 ¿Por qué es importante TypeScript?
+Porque en TypeScript no basta con guardar cualquier cosa en cualquier variable:
+Debemos ser claros sobre qué tipo de datos vamos a guardar.
+Así, el lenguaje puede avisarnos si cometemos errores (por ejemplo, guardar un número donde debería ir un texto).
+Esto ayuda a que nuestro programa sea más confiable y más fácil de entender.
+## 🛠️ Explicación detallada paso a paso
+Vamos paso a paso:
+1. ¿Qué es una variable?
+    - Una variable es un nombre que le damos a un espacio en la memoria del computador para guardar un valor.
+
+    En TypeScript usamos tres palabras clave para crear variables:
+    - let → Para variables que pueden cambiar su valor.
+    - const → Para variables que no deben cambiar su valor.
+    - var → (se usaba antes, ya no se recomienda).
+    En TypeScript:
+    ```typescript
+    let edad = 25;
+    const nombre = "Diana";
+    ```
+    - edad es una variable que puede cambiar (por eso usamos let).
+    - nombre no debe cambiar (por eso usamos const).
+2. ¿Qué es un tipo de dato?
+   - Un tipo de dato describe qué clase de información guarda una variable.
+    En TypeScript, los tipos básicos son:
+    | Tipo de dato | Qué representa                | Ejemplo           |
+    | ------------ | ----------------------------- | ----------------- |
+    | `number`     | Números (enteros o decimales) | `42`, `3.14`      |
+    | `string`     | Textos o palabras             | `"Hola"`, `"123"` |
+    | `boolean`    | Verdadero o falso             | `true`, `false`   |
+
+    Cómo se usan:
+    ```typescript
+    let edad = 25;
+    const nombre = "Diana";
+    ```
+
+
