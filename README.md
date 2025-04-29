@@ -25,7 +25,7 @@
 ## 🗺️ Índice
 
 - [📖 ¿Qué es este proyecto?](#-qué-es-este-proyecto)
-- [🧠 TYPESCRIPT](#-typescript)
+- [🧠 Tema 1: ¿Qué es TypeScript?](#-tema-1-qué-es-typescript)
   - [🧠 ¿Qué es TypeScript?](#-qué-es-typescript)
   - [🔥 ¿Por qué es importante TypeScript?](#-por-qué-es-importante-typescript)
   - [🛠️ Explicación detallada paso a paso](#️-explicación-detallada-paso-a-paso)
@@ -35,7 +35,7 @@
   - [💡 Consejo práctico para dominar el tema](#-consejo-práctico-para-dominar-el-tema)
 - [🧠 Tema 2: Variables y tipos de datos básicos](#-tema-2-variables-y-tipos-de-datos-básicos)
   - [🧠 ¿Que son variables y tipos?](#-que-son-variables-y-tipos)
-  - [🔥 ¿Por qué es importante TypeScript?](#-por-qué-es-importante-typescript-1)
+  - [🔥 ¿Por qué es importante en TypeScript?](#-por-qué-es-importante-en-typescript)
   - [🛠️ Explicación detallada paso a paso](#️-explicación-detallada-paso-a-paso-1)
 
 ---
@@ -48,7 +48,7 @@ Este repositorio reúne los **conceptos esenciales, intermedios y avanzados de T
 - 📈 Avanza de forma ordenada: desde lo más básico hasta técnicas profesionales.
 
 ---
-# 🧠 TYPESCRIPT
+# 🧠 Tema 1: ¿Qué es TypeScript?
 ## 🧠 ¿Qué es TypeScript?
 TypeScript es un lenguaje de programación que mejora a JavaScript agregándole reglas para que puedas detectar errores antes de que tu programa se ejecute.
 En una frase:
@@ -127,7 +127,7 @@ Así, TypeScript verifica tu código antes de que lo “pongas en marcha”, igu
 - Tipos de datos básicos son formas que puede tener esa información: puede ser un número, un texto, verdadero o falso, entre otros.
 En una frase:
 > Una variable es como una cajita que guarda algo, y el tipo de dato nos dice qué clase de cosa guarda.
-## 🔥 ¿Por qué es importante TypeScript?
+## 🔥 ¿Por qué es importante en TypeScript?
 Porque en TypeScript no basta con guardar cualquier cosa en cualquier variable:
 Debemos ser claros sobre qué tipo de datos vamos a guardar.
 Así, el lenguaje puede avisarnos si cometemos errores (por ejemplo, guardar un número donde debería ir un texto).
