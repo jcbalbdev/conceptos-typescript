@@ -30,6 +30,7 @@
   - [🔥 ¿Por qué es importante TypeScript?](#-por-qué-es-importante-typescript)
   - [🛠️ Explicación detallada paso a paso](#️-explicación-detallada-paso-a-paso)
   - [✏️ Ejemplo práctico](#️-ejemplo-práctico)
+  - [🌎 Analogía con el mundo real](#-analogía-con-el-mundo-real)
 
 ---
 
@@ -84,3 +85,14 @@ function suma(a: number, b: number): number {
 ```
 Aquí TypeScript te exige que a y b sean números (number).
 Si tratas de hacer suma(5, "hola"), TypeScript te marca un error inmediatamente ❌.
+
+## 🌎 Analogía con el mundo real
+Piensa en un aeropuerto:
+
+- JavaScript sería como dejar que cada pasajero aborde cualquier avión sin verificar su boleto.
+(¡Algunos terminan en destinos equivocados!)
+
+- TypeScript sería como verificar que cada pasajero tiene el boleto correcto antes de subir al avión.
+(¡Todos van a donde deben ir, sin sorpresas!)
+
+Así, TypeScript verifica tu código antes de que lo “pongas en marcha”, igual que un aeropuerto verifica boletos antes de volar.
