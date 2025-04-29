@@ -60,3 +60,18 @@ Vamos paso a paso:
 4. ¿Cómo lo usa un programador?
    Escribes tu programa en archivos .ts (TypeScript). Luego, lo “conviertes” en archivos .js (JavaScript) usando una herramienta llamada compilador.
 ## ✏️ Ejemplo práctico
+Supongamos que estamos sumando dos números:
+
+En JavaScript:
+```javascript
+function suma(a, b) {
+  return a + b;
+}
+```
+
+¿Problema?
+Nada te impide hacer esto:
+```javascript
+suma(5, "hola")  // Resultado: "5hola" (concatena en vez de sumar)
+```
+💥 ¡Error raro! El programa no falla, pero no hace lo que quieres.
