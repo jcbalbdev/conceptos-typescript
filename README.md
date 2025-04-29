@@ -31,6 +31,8 @@
   - [🛠️ Explicación detallada paso a paso](#️-explicación-detallada-paso-a-paso)
   - [✏️ Ejemplo práctico](#️-ejemplo-práctico)
   - [🌎 Analogía con el mundo real](#-analogía-con-el-mundo-real)
+  - [⚡ Errores comunes al aprender o aplicar este concepto](#-errores-comunes-al-aprender-o-aplicar-este-concepto)
+  - [💡 Consejo práctico para dominar el tema](#-consejo-práctico-para-dominar-el-tema)
 
 ---
 
@@ -96,3 +98,20 @@ Piensa en un aeropuerto:
 (¡Todos van a donde deben ir, sin sorpresas!)
 
 Así, TypeScript verifica tu código antes de que lo “pongas en marcha”, igual que un aeropuerto verifica boletos antes de volar.
+
+## ⚡ Errores comunes al aprender o aplicar este concepto
+- Pensar que TypeScript reemplaza JavaScript.
+  No, TypeScript es una herramienta extra, pero el producto final siempre es JavaScript.
+
+- Olvidar compilar.
+  Tienes que convertir (compilar) tu código .ts en .js, ¡si no, tu programa no correrá!
+
+- Poner tipos innecesarios.
+  A veces TypeScript puede adivinar tipos solo. Si pones demasiados tipos manualmente, tu código se vuelve más largo y feo.
+
+## 💡 Consejo práctico para dominar el tema
+> *Haz pequeños programas en TypeScript y mira cómo detecta los errores.*
+> 
+> **Intenta provocar errores a propósito** para ver cómo TypeScript te los señala.
+> 
+> Eso te va a enseñar a **confiar** en sus advertencias y a escribir código **más seguro y limpio**.
